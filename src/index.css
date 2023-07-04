@@ -1,0 +1,745 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "M PLUS 1", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  position: absolute;
+}
+#root {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.login-page {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://w.forfun.com/fetch/6c/6cf67b2b8636ee56dc57c5fad884354f.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.loginform {
+  color: white;
+  width: 30%;
+  height: 60%;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  padding: 30px;
+  background-color: #5b5b5b16;
+  box-shadow: 0 0 10px #000000;
+  border-left: 2px solid rgb(130, 0, 0);
+}
+.loginform label {
+  font-size: 1.1rem;
+}
+.loginform input {
+  width: 70%;
+  height: 30px;
+  font-weight: 700;
+  color: black;
+  font-size: 1rem;
+}
+.loginform button {
+  cursor: pointer;
+  width: 30%;
+  height: 10%;
+  border: none;
+  background-color: rgb(130, 0, 0);
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.advice {
+  font-size: 1.2rem;
+  color: rgb(185, 0, 0);
+}
+.navbar img {
+  width: 100px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin-left: 20px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  transition: all 0.2s ease;
+}
+
+.links {
+  margin-right: 50px;
+  display: flex;
+  gap: 40px;
+}
+.links a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.links a:hover {
+  background-color: rgba(255, 0, 0, 0.689);
+  border-radius: 5px;
+}
+.hidden {
+  display: none;
+}
+
+.activated {
+  background-color: #171717;
+}
+.activated a,
+.activated h3 {
+  color: linen;
+}
+
+.mainhome {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.hdqwalls.com/wallpapers/motogp-2022-5k-gy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.info {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 65%;
+  top: 40%;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: #171717e8;
+  color: white;
+  border-left: 4px solid rgb(130, 0, 0);
+  padding: 10px;
+}
+.info p,
+.info2 p,
+.info3 p,
+.info4 p {
+  font-size: 1.5rem;
+}
+.info button,
+.info2 button,
+.info3 button,
+.info4 button,
+.moreinfo,
+.accountcage button,
+.cartbtn,
+.subscribe button,
+.paycart {
+  cursor: pointer;
+  width: 30%;
+  height: fit-content;
+  padding: 5px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: none;
+  background-color: transparent;
+  border: 1px solid red;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+}
+.info button:hover,
+.info2 button:hover,
+.info3 button:hover,
+.info4 button:hover,
+.moreinfo:hover,
+.accountcage button:hover,
+.cartbtn:hover,
+.subscribe button:hover,
+.paycart:hover {
+  background-color: rgba(255, 0, 0, 0.374);
+}
+
+.secondhome {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://dainese-cdn.thron.com/delivery/public/image/dainese/a6f4dee6-3012-4bc5-a27f-bebf3ac06a3e/lz2wbm/std/1920x472/banner_gloves);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.info2 {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 12%;
+  top: 130%;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: #171717e8;
+  color: white;
+  border-left: 4px solid rgb(130, 0, 0);
+  padding: 10px;
+}
+.thirdhome {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://demonerosso.dainese.com/hubfs/00_Demone%20Rosso/sistema%20D-axial/Featured_axial.png#keepProtocol);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.info3 {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 12%;
+  top: 230%;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: #171717e8;
+  color: white;
+  border-left: 4px solid rgb(130, 0, 0);
+  padding: 10px;
+}
+.fourthhome {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://wallpapercave.com/wp/wp3617481.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.info4 {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 10%;
+  top: 314%;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: #171717e8;
+  color: white;
+  border-left: 4px solid rgb(130, 0, 0);
+  padding: 0 10px 0 10px;
+  padding: 10px;
+}
+.productos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 180px 0 300px 0;
+  row-gap: 30px;
+}
+.products-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  gap: 50px;
+}
+.productos img,
+.productinfo img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.producto {
+  padding-top: 20px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  background-color: #171717;
+  border-left: 5px solid rgb(130, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.producto h4 {
+  font-weight: 400;
+}
+
+.account {
+  background-image: url(https://w.forfun.com/fetch/cf/cf9210929f04410b37b6b47cf5316e67.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accountcage {
+  width: 30%;
+  height: 500px;
+  background-color: #0a0a0ac4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  color: white;
+  padding: 20px;
+}
+.accountcage img {
+  width: 40%;
+}
+.accountcage h3,
+h5 {
+  font-size: 1.2rem;
+}
+.product {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.maininfo {
+  display: flex;
+  width: 50%;
+  height: 50%;
+}
+.productinfo {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  background-color: #171717;
+  color: white;
+  box-shadow: 10px 0 20px #161616;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  border-left: 3px solid rgb(130, 0, 0);
+}
+.productdesc {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+}
+.cartbtn {
+  color: black;
+}
+.container {
+  width: 50%;
+  height: 40%;
+}
+.goback {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.goback:hover {
+  text-decoration: underline;
+}
+.cartpage {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 50px;
+  margin-top: 100px;
+}
+.productlist {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  list-style: none;
+  overflow: auto;
+}
+.productlist p {
+  user-select: none;
+}
+.productlist h5 {
+  width: 50%;
+}
+.productlist h5:nth-child(3) {
+  width: 10%;
+}
+.productlist h5:nth-child(2) {
+  cursor: pointer;
+}
+.productshidden {
+  display: none;
+}
+.element {
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.element img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.operations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+.minus,
+.plus,
+.delete {
+  cursor: pointer;
+}
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.panel-btn {
+  position: fixed;
+  width: 50px;
+  z-index: 1001;
+  right: 5%;
+  top: 2%;
+}
+.panel {
+  position: fixed;
+  width: 100%;
+  z-index: 209;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.939);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-100%, 0);
+  transition: all 0.2s ease-in;
+}
+.panel.is-active {
+  transform: translate(0, 0);
+}
+.panel ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  align-items: center;
+}
+.panel li > a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+.burgernav,
+.burgernav::after,
+.burgernav::before {
+  background-color: white;
+}
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner:after,
+.hamburger.is-active .hamburger-inner:before {
+  background-color: white;
+}
+.plus,
+.minus {
+  cursor: pointer;
+}
+.minus-prod,
+.plus-prod {
+  color: #171717;
+  cursor: pointer;
+}
+.cantidad {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  user-select: none;
+}
+.incart {
+  border: 1px solid green;
+  user-select: none;
+}
+.incart:hover {
+  background-color: rgba(0, 99, 0, 0.382);
+}
+footer {
+  bottom: 0;
+  height: 250px;
+  background-color: black;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+}
+footer div {
+  height: 80%;
+}
+footer ul {
+  list-style: none;
+}
+footer ul > li {
+  cursor: pointer;
+}
+footer ul > li:hover {
+  text-decoration: underline;
+}
+footer ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+.title {
+  font-size: 1.2rem;
+  color: rgb(161, 0, 0);
+  list-style: none;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  text-align: center;
+  row-gap: 25px;
+}
+.contact ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact ul > li {
+  font-size: 1.4rem;
+  transition: all 0.3s ease-in-out;
+}
+.contact li:hover {
+  color: rgb(161, 0, 0);
+}
+.subscribe {
+  width: 25%;
+  /* background-color: blue; */
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+.subscribe [type="email"] {
+  width: 70%;
+  height: 20px;
+}
+.subscribe label {
+  width: 80%;
+  font-size: 0.9rem;
+}
+.subscribe label > input {
+  margin-right: 5px;
+  width: 15px;
+}
+.subscribe label > span {
+  color: rgb(197, 0, 0);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.subscribe label > span:active {
+  color: rgb(105, 105, 105);
+}
+.paycart {
+  width: 80%;
+  color: black;
+}
+@media (max-width: 1287px) {
+  .loginform {
+    top: 10%;
+    left: 5%;
+    width: 75%;
+    height: 60%;
+  }
+  .product {
+    margin: 150px 0 100px 0;
+  }
+  .producto {
+    width: 95%;
+  }
+  .products-page {
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+  .maininfo {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .productdesc {
+    margin-left: 20px;
+    width: 80%;
+    row-gap: 10px;
+    height: 50%;
+  }
+  .productinfo {
+    margin-left: 20px;
+    width: 80%;
+    box-shadow: 0 10px 20px #161616;
+  }
+  .productlist {
+    width: 90%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  .element {
+    flex-direction: column;
+    width: 80%;
+    margin-left: 22px;
+  }
+  .accountcage {
+    width: 85%;
+  }
+  .info,
+  .info2,
+  .info3,
+  .info4 {
+    width: 80%;
+    height: 40%;
+    left: 8%;
+  }
+  .info button,
+  .info2 button,
+  .info3 button,
+  .info4 button {
+    width: 50%;
+  }
+  .thirdhome {
+    background-position: 78% 75%;
+  }
+  .secondhome {
+    background-position: 60% 75%;
+  }
+  .fourthhome {
+    background-position: 65% 75%;
+  }
+  .loginform input {
+    font-size: 0.9rem;
+  }
+  .loginform {
+    height: 70%;
+  }
+  .total {
+    width: 90%;
+    margin-left: 20px;
+  }
+  footer {
+    height: 100%;
+    flex-direction: column-reverse;
+    padding-bottom: 30px;
+  }
+  footer div {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  }
+  .footer-products {
+    width: 100%;
+    height: 20%;
+    row-gap: 20px;
+  }
+  .footer-products ul {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    text-align: center;
+    row-gap: 10px;
+  }
+  .Help {
+    width: 100%;
+    row-gap: 20px;
+  }
+  .Help ul {
+    height: 60%;
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    text-align: center;
+  }
+  .subscribe {
+    width: 100%;
+    height: 40%;
+  }
+  .contact {
+    width: 80%;
+    height: 20%;
+  }
+  .contact ul {
+    width: 40%;
+    gap: 20px;
+  }
+}
