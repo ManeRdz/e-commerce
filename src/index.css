@@ -521,6 +521,9 @@ h5 {
 .hamburger.is-active .hamburger-inner:before {
   background-color: white;
 }
+.panel-btn {
+  display: none;
+}
 .plus,
 .minus {
   cursor: pointer;
@@ -804,5 +807,13 @@ footer ul > li > a {
   }
   .account {
     background-position: 30% 75%;
+  }
+}
+@media (max-width: 900px) {
+  .panel-btn {
+    display: block;
+  }
+  .links {
+    display: none;
   }
 }

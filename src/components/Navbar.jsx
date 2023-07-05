@@ -5,7 +5,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { AiOutlineUser } from "react-icons/ai";
 
 const Navbar = () => {
-  const { responsive, username, navbar, setNavbar } = useContext(Contexto);
+  const { username, navbar, setNavbar } = useContext(Contexto);
 
   const scrolling = () => {
     if (window.scrollY > 100) {
@@ -23,7 +23,7 @@ const Navbar = () => {
         </NavLink>
         <h3>Welcome! {username}</h3>
       </div>
-      <div className={responsive ? "links hidden" : "links"}>
+      <div className="links">
         <NavLink to="helmets">Helmets</NavLink>
         <NavLink to="gloves">Gloves</NavLink>
         <NavLink to="boots">Boots</NavLink>
