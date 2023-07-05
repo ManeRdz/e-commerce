@@ -1,7 +1,4 @@
 import Provider from "./contexto/Provider";
-import MainRouter from "./routes/MainRouter";
-import { useContext } from "react";
-import Contexto from "./contexto/Contexto";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import Router2 from "./routes/Router2";
 import Login from "./pages/Login";
@@ -12,7 +9,7 @@ import PrivateRoutes from "./routes/PrivateRoutes";
 function App() {
   const router = createHashRouter([
     {
-      path: "/",
+      path: "/#/",
       element: <Home />,
     },
     {
