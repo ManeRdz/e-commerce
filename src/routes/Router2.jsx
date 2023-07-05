@@ -17,20 +17,22 @@ import Contexto from "../contexto/Contexto";
 const Router2 = () => {
   const { responsive } = useContext(Contexto);
   const { setResponsive } = useContext(Contexto);
-  window.addEventListener("resize", () => {
+  const responsivo = () => {
     if (window.innerWidth <= 1264) {
       setResponsive(true);
     } else {
       setResponsive(false);
     }
-  });
+  };
+  window.addEventListener("load", responsivo);
+  window.addEventListener("resize", responsivo);
   return (
     <>
       <Navbar />
       <Menu />
       {responsive ? <MenuHamburguer /> : null}
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="home" element={<Home />} />
         <Route path="helmets" element={<Helmets />} />
         <Route path="gloves" element={<Gloves />} />
         <Route path="boots" element={<Boots />} />
