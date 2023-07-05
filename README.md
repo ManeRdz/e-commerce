@@ -5,5 +5,5 @@ Deployed at: https://manerdz.github.io/e-commerce/#/home
 If you want to give it a try you're going to need this!
 User: Test
 Password: test
-I hope you enjoy this little project and if you notice some error please let me know :)
+I hope you enjoy this little project and if you notice some error please let me know :) 
 
