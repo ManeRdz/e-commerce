@@ -24,7 +24,7 @@ const Router2 = () => {
       setResponsive(false);
     }
   };
-  window.addEventListener("DOMContentLoaded", responsivo);
+  window.addEventListener("load", responsivo);
   window.addEventListener("resize", responsivo);
   return (
     <>
