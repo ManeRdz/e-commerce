@@ -312,7 +312,6 @@ body {
 
 .account {
   background-image: url(https://w.forfun.com/fetch/cf/cf9210929f04410b37b6b47cf5316e67.jpeg);
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -751,5 +750,8 @@ footer ul > li > a {
   .contact ul {
     width: 40%;
     gap: 20px;
+  }
+  .account {
+    background-position: 30% 75%;
   }
 }
