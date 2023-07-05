@@ -16,6 +16,14 @@ import Contexto from "../contexto/Contexto";
 
 const Router2 = () => {
   const { responsive } = useContext(Contexto);
+  const { setResponsive } = useContext(Contexto);
+  window.addEventListener("resize", () => {
+    if (window.innerWidth <= 1264) {
+      setResponsive(true);
+    } else {
+      setResponsive(false);
+    }
+  });
   return (
     <>
       <Navbar />
