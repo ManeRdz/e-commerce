@@ -437,8 +437,9 @@ h5 {
 .element {
   height: fit-content;
   display: flex;
-  justify-content: space-between;
+  gap: 50px;
   align-items: center;
+  justify-content: center;
   padding: 10px;
 }
 .element img {
@@ -626,6 +627,23 @@ footer ul > li > a {
   width: 80%;
   color: black;
 }
+@media (max-height: 768px) {
+  .account {
+    padding: 200px 0 200px 0;
+  }
+  .product {
+    margin: 10% 0 10% 0;
+  }
+  .maininfo {
+    height: 80%;
+  }
+  .info,
+  .info2,
+  .info3,
+  .info4 {
+    height: 45%;
+  }
+}
 @media (max-width: 1287px) {
   footer {
     height: 100%;
@@ -692,6 +710,9 @@ footer ul > li > a {
   }
   .productlist {
     width: 90%;
+  }
+  .element {
+    gap: 10px;
   }
 }
 
