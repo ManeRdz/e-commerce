@@ -690,6 +690,9 @@ footer ul > li > a {
   .info4 button {
     width: 60%;
   }
+  .productlist {
+    width: 90%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -700,7 +703,7 @@ footer ul > li > a {
     height: 60%;
   }
   .product {
-    margin: 50% 0 100% 0;
+    margin: 45% 0 100% 0;
   }
   .producto {
     width: 95%;
@@ -728,6 +731,10 @@ footer ul > li > a {
   .productlist {
     width: 90%;
     border: 1px solid black;
+  }
+  .cartpage {
+    margin-bottom: 30%;
+    margin-top: 40%;
   }
   .element {
     flex-direction: column;
