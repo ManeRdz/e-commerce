@@ -29,19 +29,19 @@ const Footer = () => {
         <p className="title">Shop</p>
         <ul>
           <li>
-            <NavLink to="/home">Home</NavLink>
+            <NavLink to="home">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/helmets">Helmets</NavLink>
+            <NavLink to="helmets">Helmets</NavLink>
           </li>
           <li>
-            <NavLink to="/gloves">Gloves</NavLink>
+            <NavLink to="gloves">Gloves</NavLink>
           </li>
           <li>
-            <NavLink to="/boots">Boots</NavLink>
+            <NavLink to="boots">Boots</NavLink>
           </li>
           <li>
-            <NavLink to="/suits">Suits</NavLink>
+            <NavLink to="suits">Suits</NavLink>
           </li>
           <li onClick={top}>
             Top

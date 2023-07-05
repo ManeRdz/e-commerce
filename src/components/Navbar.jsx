@@ -20,20 +20,20 @@ const Navbar = () => {
   return (
     <nav className={navbar ? "navbar activated" : "navbar"}>
       <div className="userInfo">
-        <NavLink className="logo" to="/home">
+        <NavLink className="logo" to="home">
           MCshop
         </NavLink>
         <h3>Welcome! {username}</h3>
       </div>
       <div className={responsive ? "links hidden" : "links"}>
-        <NavLink to="/helmets">Helmets</NavLink>
-        <NavLink to="/gloves">Gloves</NavLink>
-        <NavLink to="/boots">Boots</NavLink>
-        <NavLink to="/suits">Suits</NavLink>
-        <NavLink to="/cart">
+        <NavLink to="helmets">Helmets</NavLink>
+        <NavLink to="gloves">Gloves</NavLink>
+        <NavLink to="boots">Boots</NavLink>
+        <NavLink to="suits">Suits</NavLink>
+        <NavLink to="cart">
           <FaShoppingCart />
         </NavLink>
-        <NavLink to="/account">
+        <NavLink to="account">
           <AiOutlineUser />
         </NavLink>
       </div>

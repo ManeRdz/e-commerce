@@ -23,8 +23,9 @@ const ShoppingCar = () => {
               <button className="paycart">Pay your cart</button>
             </div>
           ) : (
-            <h5 className="total">
-              Your cart is empty, add something from the shop!
+            <h5 className="total empty">
+              Your cart is empty, add something from the{" "}
+              <span onClick={() => naveg("/e-commerce/home")}>shop</span>!
             </h5>
           )}
         </div>
@@ -32,11 +33,11 @@ const ShoppingCar = () => {
           {cart.map((element) => (
             <li className="element" key={element.name}>
               <img
-                onClick={() => naveg(`/product/${element.id}`)}
+                onClick={() => naveg(`/e-commerce/product/${element.id}`)}
                 src={element.image}
                 alt="product-image"
               />
-              <h5 onClick={() => naveg(`/product/${element.id}`)}>
+              <h5 onClick={() => naveg(`/e-commerce/product/${element.id}`)}>
                 {element.name}
               </h5>
               <h5>${element.price}</h5>

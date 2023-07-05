@@ -13,32 +13,32 @@ const Menu = () => {
     <aside className={active ? "panel is-active" : "panel"}>
       <ul>
         <li>
-          <NavLink onClick={click} to="/helmets">
+          <NavLink onClick={click} to="helmets">
             Helmets
           </NavLink>
         </li>
         <li>
-          <NavLink onClick={click} to="/gloves">
+          <NavLink onClick={click} to="gloves">
             Gloves
           </NavLink>
         </li>
         <li>
-          <NavLink onClick={click} to="/boots">
+          <NavLink onClick={click} to="boots">
             Boots
           </NavLink>
         </li>
         <li>
-          <NavLink onClick={click} to="/suits">
+          <NavLink onClick={click} to="suits">
             Suits
           </NavLink>
         </li>
         <li>
-          <NavLink onClick={click} to="/cart">
+          <NavLink onClick={click} to="cart">
             <FaShoppingCart />
           </NavLink>
         </li>
         <li>
-          <NavLink onClick={click} to="/account">
+          <NavLink onClick={click} to="account">
             <AiOutlineUser />
           </NavLink>
         </li>

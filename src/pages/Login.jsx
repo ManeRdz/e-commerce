@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import Contexto from "../contexto/Contexto";
 
 const Login = () => {
@@ -23,7 +23,7 @@ const Login = () => {
     } else {
       setWrongpass(false);
       setWronguser(false);
-      naveg("/home", { replace: true });
+      naveg("/e-commerce/home");
       logearme();
     }
   };

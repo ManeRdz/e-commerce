@@ -457,9 +457,19 @@ h5 {
   cursor: pointer;
 }
 .total {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 5px;
+}
+.empty {
+  display: block;
+}
+.total span {
+  cursor: pointer;
+  color: rgb(184, 0, 0);
+  text-decoration: underline;
 }
 .panel-btn {
   position: fixed;

@@ -8,7 +8,7 @@ const Account = () => {
   const leave = (e) => {
     e.preventDefault();
     setUsername("");
-    naveg("/login", { replace: true });
+    naveg("login", { replace: true });
 
     deslogearme();
   };

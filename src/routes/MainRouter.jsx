@@ -18,16 +18,16 @@ const MainRouter = () => {
   return (
     <Routes>
       <Route
-        path="login"
+        path="e-commerce/login"
         element={
           <PublicRoutes>
             <Login />
           </PublicRoutes>
         }
       />
-      <Route path="/" element={<Navigate to="/home" />} />
+      <Route path="e-commerce/" element={<Navigate to="home" />} />
       <Route
-        path="/*"
+        path="e-commerce/*"
         element={
           <PrivateRoutes>
             <Router2 />
