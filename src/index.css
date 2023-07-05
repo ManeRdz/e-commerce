@@ -112,6 +112,10 @@ body {
   background-color: rgba(255, 0, 0, 0.689);
   border-radius: 5px;
 }
+.links a:nth-child(5),
+.links a:nth-child(6) {
+  font-size: 1.6rem;
+}
 .hidden {
   display: none;
 }
@@ -496,7 +500,7 @@ h5 {
   list-style: none;
   display: flex;
   flex-direction: column;
-  row-gap: 80px;
+  row-gap: 45px;
   align-items: center;
 }
 .panel li > a {
@@ -623,88 +627,11 @@ footer ul > li > a {
   color: black;
 }
 @media (max-width: 1287px) {
-  .loginform {
-    top: 10%;
-    left: 5%;
-    width: 75%;
-    height: 60%;
-  }
-  .product {
-    margin: 150px 0 100px 0;
-  }
-  .producto {
-    width: 95%;
-  }
-  .products-page {
-    margin-top: 120px;
-    margin-bottom: 100px;
-  }
-  .maininfo {
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    row-gap: 15%;
-    align-items: center;
-  }
-  .productdesc {
-    width: 80%;
-    row-gap: 10px;
-    height: 50%;
-  }
-  .productinfo {
-    width: 80%;
-    box-shadow: 0 10px 20px #161616;
-  }
-  .productlist {
-    width: 90%;
-    border: 1px solid black;
-  }
-  .element {
-    flex-direction: column;
-    width: 80%;
-    margin-left: 22px;
-  }
-  .accountcage {
-    width: 85%;
-  }
-  .info,
-  .info2,
-  .info3,
-  .info4 {
-    width: 80%;
-    height: 40%;
-    left: 8%;
-  }
-  .info button,
-  .info2 button,
-  .info3 button,
-  .info4 button {
-    width: 50%;
-  }
-  .thirdhome {
-    background-position: 78% 75%;
-  }
-  .secondhome {
-    background-position: 60% 75%;
-  }
-  .fourthhome {
-    background-position: 65% 75%;
-  }
-  .loginform input {
-    font-size: 0.9rem;
-  }
-  .loginform {
-    height: 70%;
-  }
-  .total {
-    width: 90%;
-    margin-left: 20px;
-  }
   footer {
-    margin-top: 100%;
     height: 100%;
     flex-direction: column-reverse;
     padding-bottom: 30px;
+    padding-top: 50px;
   }
   footer div {
     width: 90%;
@@ -750,6 +677,101 @@ footer ul > li > a {
   .contact ul {
     width: 40%;
     gap: 20px;
+  }
+  .maininfo {
+    width: 90%;
+  }
+  .accountcage {
+    width: 50%;
+  }
+  .info button,
+  .info2 button,
+  .info3 button,
+  .info4 button {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .loginform {
+    top: 10%;
+    left: 5%;
+    width: 75%;
+    height: 60%;
+  }
+  .product {
+    margin: 50% 0 100% 0;
+  }
+  .producto {
+    width: 95%;
+  }
+  .products-page {
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+  .maininfo {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    row-gap: 15%;
+    align-items: center;
+  }
+  .productdesc {
+    width: 80%;
+    row-gap: 10px;
+    height: 50%;
+  }
+  .productinfo {
+    width: 80%;
+    box-shadow: 0 10px 20px #161616;
+  }
+  .productlist {
+    width: 90%;
+    border: 1px solid black;
+  }
+  .element {
+    flex-direction: column;
+    width: 80%;
+    margin-left: 22px;
+  }
+  .accountcage {
+    width: 85%;
+  }
+  .info,
+  .info2,
+  .info3,
+  .info4 {
+    width: 80%;
+    height: 40%;
+    left: 8%;
+  }
+  .info4 {
+    top: 330%;
+  }
+  .info button,
+  .info2 button,
+  .info3 button,
+  .info4 button {
+    width: 50%;
+  }
+  .thirdhome {
+    background-position: 78% 75%;
+  }
+  .secondhome {
+    background-position: 60% 75%;
+  }
+  .fourthhome {
+    background-position: 65% 75%;
+  }
+  .loginform input {
+    font-size: 0.9rem;
+  }
+  .loginform {
+    height: 70%;
+  }
+  .total {
+    width: 90%;
+    margin-left: 20px;
   }
   .account {
     background-position: 30% 75%;

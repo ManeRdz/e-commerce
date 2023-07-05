@@ -1,8 +1,6 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
 import Contexto from "../contexto/Contexto";
-import MenuHamburguer from "./MenuHamburguer";
 import { FaShoppingCart } from "react-icons/fa";
 import { AiOutlineUser } from "react-icons/ai";
 
