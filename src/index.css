@@ -23,6 +23,7 @@ body {
   background-image: url(https://w.forfun.com/fetch/6c/6cf67b2b8636ee56dc57c5fad884354f.jpeg);
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
 }
 .loginform {
   color: white;
