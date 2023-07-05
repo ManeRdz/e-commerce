@@ -31,13 +31,13 @@ const Router2 = () => {
       {responsive ? <MenuHamburguer /> : null}
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/helmets" element={<Helmets />} />
-        <Route path="/gloves" element={<Gloves />} />
-        <Route path="/boots" element={<Boots />} />
-        <Route path="/suits" element={<Suits />} />
-        <Route path="/product/:id" element={<Buy />} />
-        <Route path="/account" element={<Account />} />
-        <Route path="/cart" element={<ShoppingCar />} />
+        <Route path="helmets" element={<Helmets />} />
+        <Route path="gloves" element={<Gloves />} />
+        <Route path="boots" element={<Boots />} />
+        <Route path="suits" element={<Suits />} />
+        <Route path="product/:id" element={<Buy />} />
+        <Route path="account" element={<Account />} />
+        <Route path="cart" element={<ShoppingCar />} />
       </Routes>
       <Footer />
     </>

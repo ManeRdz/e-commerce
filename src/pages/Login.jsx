@@ -23,7 +23,7 @@ const Login = () => {
     } else {
       setWrongpass(false);
       setWronguser(false);
-      naveg("/e-commerce/home");
+      naveg("/home");
       logearme();
     }
   };

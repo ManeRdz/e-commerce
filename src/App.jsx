@@ -1,5 +1,5 @@
 import Provider from "./contexto/Provider";
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, Navigate, RouterProvider } from "react-router-dom";
 import Router2 from "./routes/Router2";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
@@ -9,11 +9,11 @@ import PrivateRoutes from "./routes/PrivateRoutes";
 function App() {
   const router = createHashRouter([
     {
-      path: "/#/",
-      element: <Home />,
+      path: "/",
+      element: <Navigate to="home" />,
     },
     {
-      path: "e-commerce/login",
+      path: "/login",
       element: (
         <PublicRoutes>
           <Login />
@@ -21,7 +21,7 @@ function App() {
       ),
     },
     {
-      path: "e-commerce/*",
+      path: "/*",
       element: (
         <PrivateRoutes>
           <Router2 />

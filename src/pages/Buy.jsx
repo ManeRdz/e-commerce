@@ -88,10 +88,7 @@ const Buy = () => {
             )}
 
             {finded ? (
-              <button
-                className="cartbtn incart"
-                onClick={() => naveg("/e-commerce/cart")}
-              >
+              <button className="cartbtn incart" onClick={() => naveg("/cart")}>
                 In your cart <FaShoppingCart />
               </button>
             ) : (

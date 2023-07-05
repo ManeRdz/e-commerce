@@ -25,7 +25,7 @@ const ShoppingCar = () => {
           ) : (
             <h5 className="total empty">
               Your cart is empty, add something from the{" "}
-              <span onClick={() => naveg("/e-commerce/home")}>shop</span>!
+              <span onClick={() => naveg("/home")}>shop</span>!
             </h5>
           )}
         </div>
@@ -33,11 +33,11 @@ const ShoppingCar = () => {
           {cart.map((element) => (
             <li className="element" key={element.name}>
               <img
-                onClick={() => naveg(`/e-commerce/product/${element.id}`)}
+                onClick={() => naveg(`/product/${element.id}`)}
                 src={element.image}
                 alt="product-image"
               />
-              <h5 onClick={() => naveg(`/e-commerce/product/${element.id}`)}>
+              <h5 onClick={() => naveg(`/product/${element.id}`)}>
                 {element.name}
               </h5>
               <h5>${element.price}</h5>

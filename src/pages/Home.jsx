@@ -14,7 +14,7 @@ const Home = () => {
           <p>Lets go for it!</p>
           <button
             onClick={() => {
-              naveg("/e-commerce/helmets");
+              naveg("/helmets");
               window.scrollTo({ top: 0 });
             }}
           >
@@ -31,7 +31,7 @@ const Home = () => {
           <p>Lets go for it!</p>
           <button
             onClick={() => {
-              naveg("/e-commerce/gloves");
+              naveg("/gloves");
               window.scrollTo({ top: 0 });
             }}
           >
@@ -45,7 +45,7 @@ const Home = () => {
           <p>Lets go for it!</p>
           <button
             onClick={() => {
-              naveg("/e-commerce/boots");
+              naveg("/boots");
 
               window.scrollTo({ top: 0 });
             }}
@@ -60,7 +60,7 @@ const Home = () => {
           <p>Lets go for it!</p>
           <button
             onClick={() => {
-              naveg("/e-commerce/suits");
+              naveg("/suits");
               window.scrollTo({ top: 0 });
             }}
           >

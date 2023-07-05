@@ -10,7 +10,7 @@ const Product = ({ ...e }) => {
         <h3>{e.name}</h3>
         <h4>${e.price}</h4>
         <img src={e.image} alt="product-image" />
-        <NavLink to={`/e-commerce/product/${e.id}`} className="moreinfo">
+        <NavLink to={`/product/${e.id}`} className="moreinfo">
           More info +
         </NavLink>
       </div>
