@@ -647,6 +647,10 @@ footer ul > li > a {
   .info4 {
     height: 45%;
   }
+  .loginform {
+    height: 90%;
+    top: 0;
+  }
 }
 @media (max-width: 1287px) {
   footer {

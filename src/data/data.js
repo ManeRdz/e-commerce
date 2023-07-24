@@ -5,7 +5,7 @@ export const product = [
     name: "AGV PISTA GP RR IRIDIUM CARBON",
     price: 1500,
     image:
-      "https://cdn.shopify.com/s/files/1/0541/5747/6009/products/CASCO_AGV_PISTA_GP_RR_IRIDIUM_CARBON_1_091556c4-acf3-4bfa-b2f1-811bda7507e6_1100x.jpg?v=1668115261",
+      "https://moto-rad.com/cdn/shop/files/CASCO_AGV_PISTA_GP_RR_IRIDIUM_CARBON_1_091556c4-acf3-4bfa-b2f1-811bda7507e6_1000x.webp?v=1689175679",
     category: "Helmets",
     description:
       "The Pista GP RR is the perfect replica of the AGV helmet used by the champions of the World Motorcycle Championship in the race. That's why it has received the new FIM homologation, which certifies the highest possible level of protection. Thanks to AGV's unique Extreme Safety Design protocol, the Pista GP RR already exceeds the requirements of the strict ECE 22.06 homologation standard.",
@@ -17,7 +17,7 @@ export const product = [
     name: "SHOEI X-FIFTEEN MARQUEZ7 TC-1",
     price: 1050,
     image:
-      "https://cdn.shopify.com/s/files/1/0541/5747/6009/products/CASCO-SHOEI-X-SPRPRO-MARQUEZ7-TC-1-1_1028x.jpg?v=1673632580",
+      "https://m.media-amazon.com/images/I/71RDLJ9VmfL._AC_UF894,1000_QL80_.jpg",
     category: "Helmets",
     description:
       "A pure racing helmet boasting optimal performance, functionality and safety, the X-Fifteen is the latest generation of SHOEI’s most technologically advanced sport and competition model. The X-Series has earned the praise of the world’s top racers, including 8-time World Champion Marc Marquez.",
@@ -26,10 +26,10 @@ export const product = [
   {
     id: 3,
     color: "Black, White, Red",
-    name: "HJC RPHA11 PRO ANTI VENOM",
+    name: "HJC RPHA 11 PRO ANTI VENOM",
     price: 629,
     image:
-      "https://cdn.shopify.com/s/files/1/0541/5747/6009/products/CASCO_MOTO_HJC_RPHA_11_ANTI-VENOM_MARVEL_1_1100x.jpg?v=1636997971",
+      "https://vvassermotoart.com/cdn/shop/products/hjcrpha11_pro_anti_venom_helmet_black_red_white_750x7501_e230a2b0-221c-45a7-8ca2-84c3acbdfbc7_750x.jpg?v=1664839668",
     category: "Helmets",
     description:
       "Originally built for the racetrack, the RPHA 11 Pro is HJC’s premium sport helmet, designed with an aerodynamic shell structure for extreme performance at maximum speeds.",
@@ -41,7 +41,7 @@ export const product = [
     name: "AGV K1 S SOLELUNA 2018",
     price: 279,
     image:
-      "https://cdn.shopify.com/s/files/1/0541/5747/6009/products/casco-agv-k1s-soleluna2018-1_800x.jpg?v=1668182949",
+      "https://img1.wsimg.com/isteam/ip/23ea939c-d2ca-45fc-9147-8951c23f179a/ols/K1%20S%20SOLELUNA%202018%201.jpg/:/rs=w:1200,h:1200",
     category: "Helmets",
     description:
       "K1 S is the road helmet that comes out of AGV’s experience in MotoGP™, suitable for a range of uses on any route. The aerodynamic shape of its shell made of high-resistance thermoplastic material, the front air vents developed through racing experience and the new Aero Spoiler designed in the wind tunnel maximize performance and provide stability even at high speeds in sports riding.",
@@ -113,7 +113,7 @@ export const product = [
     name: "DAINESE FULL METAL 6 GLOVES",
     price: 519,
     image:
-      "https://cdn.shopify.com/s/files/1/0541/5747/6009/products/GUANTES_MOTO_DAINESE_FULL_METAL_6_1100x.jpg?v=1637085942",
+      "https://m.media-amazon.com/images/I/51Qnqi-5BKS._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
     category: "Gloves",
     description:
       "The motorbike gloves with superlight strength and protectors in carbon fiber, titanium and aramid fiber.",
@@ -257,7 +257,7 @@ export const product = [
     name: "DAINESE LAGUNA SECA 5 1PC LEATHER SUIT",
     price: 1599,
     image:
-      "https://cdn.shopify.com/s/files/1/0541/5747/6009/products/Untitled12_01f40c44-c038-42fb-b645-1762ace6c4c8_1100x.jpg?v=1622325086",
+      "https://images.motocard.com/eyJidWNrZXQiOiJtb3RvY2FyZCIsImtleSI6InByb2R1Y3RzL2ltYWdlcy8yMDAxNC9kYWluZXNlLWxhZ3VuYV9zZWNhXzVfcHJvZmVzc2lvbmFsX2VzdGl2YV9ibGFja193aGl0ZV9mbHVvX3JlZF9uMzItMC1NLTIwMDE0ODA1MzQuanBnIiwiZWRpdHMiOnsid2VicCI6eyJxdWFsaXR5Ijo4NX0sImpwZWciOnsicXVhbGl0eSI6OTF9LCJyZXNpemUiOnsid2lkdGgiOjExMDAsImhlaWdodCI6MTEwMCwiZml0IjoiY292ZXIifX0sInYiOiI3MTExZjg4ZmUxNjQyNDEyMmNiNmEwNGNiZWU0MDg1MSJ9",
     category: "Suits",
     description:
       "One-piece full grain cowhide leather suit with perforations, aluminum shoulder plates and aerodynamic hump designed to hold a waterbag kit. The Dainese racing icon. Short and Tall size models.",
