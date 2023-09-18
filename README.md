@@ -21,7 +21,7 @@ Demo Password: test
 
 #### **Project Description**
 
-Full front end ReactJS project. You can explore it by following this link:  [Motociclon Shop](http://https://manerdz.github.io/e-commerce/#/home "Motociclon Shop")
+Full front end ReactJS project. You can explore it by following this link:  [Motociclon Shop](https://manerdz.github.io/e-commerce/#/home "Motociclon Shop")
 
 #### **In this project, I utilized the following:**
 
