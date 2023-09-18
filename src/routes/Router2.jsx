@@ -15,17 +15,6 @@ import MenuHamburguer from "../components/MenuHamburguer";
 import Contexto from "../contexto/Contexto";
 
 const Router2 = () => {
-  // const { responsive } = useContext(Contexto);
-  // const { setResponsive } = useContext(Contexto);
-  // const responsivo = () => {
-  //   if (window.innerWidth <= 900) {
-  //     setResponsive(true);
-  //   } else {
-  //     setResponsive(false);
-  //   }
-  // };
-  // window.addEventListener("load", responsivo);
-  // window.addEventListener("resize", responsivo);
   return (
     <>
       <Navbar />
