@@ -8,13 +8,13 @@ Motociclon Shop is not just a store, it is a wonderful experience for all motorc
 
 The purpose of this project is to learn and practice concepts related to:
 
-- Strengthen my ReactJS bases.
-- Understand better how React state works.
+- Strengthening my ReactJS foundations.
+- Gaining a better understanding of how React state works.
 - Learn to use the useReducer hook.
 - Improve my CSS skills.
-- Improve my programming logic
+- Enhancing my programming logic
 
-#### **Before you visit the page you must have the demo user**
+#### **Before you visit the page, please use the demo credentials:**
 
 Demo username: Test
 Demo Password: test
@@ -37,9 +37,9 @@ Full front end ReactJS project. You can explore it by following this link:  [Mot
 
 - Friendly and easy-to-use interface for the user.
 
-- Easy to use shopping cart.
+- An intuitive shopping cart.
 
-- Full responsive design, the application can be run on any device.
+- Fully responsive design, ensuring the application works seamlessly on any device.
 
 
 #### **Some screen shots of the project: **
