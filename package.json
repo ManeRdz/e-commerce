@@ -1,7 +1,7 @@
 {
   "homepage": "https://e-commerce-git-main-manerdzs-projects.vercel.app",
   "name": "e-commerce",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
