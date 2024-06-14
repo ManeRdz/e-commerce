@@ -1,7 +1,7 @@
 {
-  "homepage": "https://manerdz.github.io/e-commerce",
+  "homepage": ".",
   "name": "e-commerce-test",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
