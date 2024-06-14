@@ -29,7 +29,7 @@ function App() {
       ),
     },
   ]);
-
+  router.basename = "e-commerce"
   return (
     <>
       <Provider>
